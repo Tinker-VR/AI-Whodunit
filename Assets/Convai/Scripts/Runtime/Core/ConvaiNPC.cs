@@ -59,6 +59,7 @@ namespace Convai.Scripts
         [Header("Session Initialization")]
         [Tooltip("Enable/disable initializing session ID by sending a text request to the server")]
         public bool initializeSessionID = true;
+        public bool IsReady = false;
 
         [HideInInspector] public ConvaiPlayerInteractionManager playerInteractionManager;
         [HideInInspector] public NarrativeDesignManager narrativeDesignManager;
@@ -122,6 +123,7 @@ namespace Convai.Scripts
             Logger.Info("Initializing ConvaiNPC : " + characterName, Logger.LogCategory.Character);
             InitializeComponents();
             Logger.Info("ConvaiNPC component initialized", Logger.LogCategory.Character);
+            IsReady = true;
         }
 
         private async void Start()
@@ -227,8 +229,13 @@ namespace Convai.Scripts
             AudioManager.SetWaitForCharacterLipSync(value);
         }
 
+        public bool IsActive { get; private set; }
+
+
         private void HandleActiveNPCChanged(ConvaiNPC newActiveNPC)
         {
+            // Update IsActive based on whether this NPC is the new active NPC
+            IsActive = (this == newActiveNPC);
             // If this NPC is no longer the active NPC, interrupt its speech
             if (this != newActiveNPC && !IsInConversationWithAnotherNPC && ConvaiInputManager.Instance.WasTalkKeyPressed()) InterruptCharacterSpeech();
         }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using Convai.Scripts.Utils;
 using UnityEngine;
@@ -13,14 +14,34 @@ namespace Convai.Scripts.Narrative_Design
         [HideInInspector] public List<string> availableTriggers;
         public UnityEvent onTriggerEvent;
 
+        public bool isPhysicalTrigger;
+        public bool invokeOnStart = false;
+
         private void Awake()
         {
             onTriggerEvent.AddListener(InvokeSelectedTrigger);
         }
 
+        private void Start()
+        {
+            if (invokeOnStart)
+            {
+                StartCoroutine(WaitAndInvoke());  // Starting the coroutine
+            }
+        }
+
+        private IEnumerator WaitAndInvoke()
+        {
+            // Wait until ConvaiNPC is initialized and ready
+            yield return new WaitUntil(() => convaiNPC != null && convaiNPC.IsReady == true);
+            InvokeSelectedTrigger();
+        }
+
+
+        // THIS WOULD TRIGGER THE TRIGGER IF PLAYER ENTERS THE TRIGGER
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Player")) InvokeSelectedTrigger();
+            if (isPhysicalTrigger && other.CompareTag("Player")) InvokeSelectedTrigger();
         }
 
 

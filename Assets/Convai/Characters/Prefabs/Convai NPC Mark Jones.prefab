@@ -8,78 +8,78 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2453515766116318095, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1168679632239492900, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6bec2ff28a7e53e45808bd5e4b074fd1, type: 2}
-    - target: {fileID: 3042848170053348879, guid: e79e5595075d84a788b863bd353a293c, type: 3}
-      propertyPath: m_Name
-      value: Convai NPC Mark Jones
-      objectReference: {fileID: 0}
-    - target: {fileID: 3042848170053348879, guid: e79e5595075d84a788b863bd353a293c, type: 3}
-      propertyPath: m_TagString
-      value: Character
-      objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8944693276493768335, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - target: {fileID: 1625736820003373019, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136148664569094220, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
+      propertyPath: m_Name
+      value: Convai NPC Mark Jones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136148664569094220, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
+      propertyPath: m_TagString
+      value: Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3042848170053348879, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7136148664569094220, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2488070384861528430}
-    - targetCorrespondingSourceObject: {fileID: 3042848170053348879, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7136148664569094220, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3063035462775519115}
-    - targetCorrespondingSourceObject: {fileID: 3042848170053348879, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7136148664569094220, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5512619480545437434}
-    - targetCorrespondingSourceObject: {fileID: 3042848170053348879, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7136148664569094220, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7296726001349253743}
-  m_SourcePrefab: {fileID: 100100000, guid: e79e5595075d84a788b863bd353a293c, type: 3}
---- !u!1 &2366296831638836597 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
+--- !u!1 &7630269029223619382 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3042848170053348879, guid: e79e5595075d84a788b863bd353a293c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7136148664569094220, guid: 49edc0a5422cd41a3863dbfd22aa8244, type: 3}
   m_PrefabInstance: {fileID: 787171330763864954}
   m_PrefabAsset: {fileID: 0}
 --- !u!136 &2488070384861528430
@@ -88,7 +88,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366296831638836597}
+  m_GameObject: {fileID: 7630269029223619382}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -111,7 +111,7 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366296831638836597}
+  m_GameObject: {fileID: 7630269029223619382}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -207,14 +207,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366296831638836597}
+  m_GameObject: {fileID: 7630269029223619382}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b38e4bc919e1f040ba78aea7472893e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Mark Jones
-  characterID: 9604130a-2e38-11ef-9d57-42010a7be00e
+  characterID: c3f7d776-2f80-11ef-bddf-42010a7be00e
   sessionID: -1
   isCharacterActive: 0
   actionsHandler: {fileID: 0}
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366296831638836597}
+  m_GameObject: {fileID: 7630269029223619382}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47bf09eafaaeed940ab9e5531a64790c, type: 3}
